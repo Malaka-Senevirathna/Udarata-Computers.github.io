@@ -1,0 +1,92 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.about-section {
+    background-color: #000000;
+    color: white;
+    padding: 50px;
+}
+
+.why-choose-us {
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.why-choose-us h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.why-choose-us p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    background-color: #ecf0f1;
+}
+
+.info-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+.info-box i {
+    font-size: 40px;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #000000;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.info-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.info-box:hover {
+    background-color: #d1e7f7; 
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.info-box i {
+    font-size: 40px;
+    color: #3498db;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.info-box:hover i {
+    color: #1e80c1; 
+}
+
+

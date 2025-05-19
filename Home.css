@@ -1,0 +1,406 @@
+*{
+    background-color: rgb(0, 0, 0); 
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+
+
+
+nav{
+    width:100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+
+}
+
+.logo{
+    width: 60px;
+    align-items: flex-start;
+    margin: 0 20px 0 40px;
+}
+
+
+nav ul{
+    align-items: center;
+    width: 70px;
+    margin-right:20px;
+    transition: color 0.3s ease
+    
+}   
+
+nav ul:hover{
+    color: #333;
+}
+
+.cart{
+    width: 20px;
+    margin:0px 2px 0 110px;
+
+}
+.container{
+    padding: 0%;
+    margin: 0%;
+}
+
+.wrapper{
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0.1rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+}
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align:start;
+    object-fit: cover;
+}
+
+.slider-nav{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1rem;
+    position:absolute;
+    bottom: -12.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: aliceblue;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+.slider-nav a:hover {
+    opacity: 100%;
+
+}
+.video-auto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow:hidden;
+}
+    
+.trending{
+    display: flex;
+    justify-content: center;
+    font-weight:bold;
+}
+
+.lately{
+    font-weight: 100;
+    font-size: 15px;
+    justify-items: center;
+    margin-left: 31rem;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 30px;
+    margin: 30px;
+    height: 100px;
+}
+
+.product-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    background-color: #ffff;
+}
+
+h4 {
+    color: #333;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    background-color:#ffffff;
+    font-family: 'Segoe UI';
+    border: 0.01rem solid #d8d6d6;
+    border-radius: 12px;
+    margin:  0  80px ;
+    font-weight: 350;
+    align-content: end;
+}
+
+h5 {
+    font-size: 1em;
+    margin: 10px 0;
+    color: #555;
+    background-color: #ffffff;
+}
+
+p {
+    color: #e74c3c;
+    font-weight: bold;
+    background-color: #ffffff;
+}
+
+.item-cart{
+    background-color: #ffffff;
+    border-radius: 5px  ;
+    color: #000000;
+    border-color: #ffffff;
+    display: flex;
+    align-items: start;
+    box-shadow: none;
+    padding: 10px;
+    
+}
+.item-cart:hover{
+    cursor: pointer;
+}
+
+.social-proof{
+    width: 100%;
+    font-size: 19px;
+    font-weight:light;
+    text-align: center;
+    margin-left: 9.9rem;
+
+}
+
+
+.review{
+    font-weight: 20;
+    font-size: small;
+    border:none;
+    background-color: #000000;
+    color:#ffffff;
+    text-align: center;
+    flex-direction: row;
+}
+.review-box{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: auto;
+    border: 0.1rem solid #333;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+        
+
+}
+
+.review-box1{
+    color: #000000;
+    background-color: #000000;
+}
+
+.randunu{
+    color: #000000;
+    background-color: #000000;
+}
+
+.stars1{
+    color: #000000;
+    background-color: #000000;
+}
+
+.review-text1{
+    color: #000000;
+    background-color: #000000;
+}
+h3{
+    background-color: #ffffff;
+    color:#575757;
+    padding: 5px;
+}
+
+.stars{
+    background-color: #ffffff;
+    color: #c7c408;
+    width: 100%;
+    align-items: end;
+
+}
+
+.review-text{
+    color: #525252;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: small;
+}
+
+.review-container{
+    display: flex;
+    grid-template-columns: repeat(solid, minmax(250px, 1fr));
+    width: 300px;
+    height: 200px;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.img-review{
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 100;
+    text-align: center;
+    width: 100%;
+    margin-left: 10rem;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+#Captures{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 8%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+#Captures1{
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 430%;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-content {
+   width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.footer-logo img {
+    display: flex;
+    box-sizing: border-box;
+    width: 50px;
+    align-items: start;
+}
+
+.footer-links {
+    display: inline;
+    margin-bottom: 60px;
+    color: #ffff;
+    background-color: #000000;
+    align-items: center;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #8b8b8b;
+}
+
+.footerCopy {
+    background-color: #ffffff;
+}
+
+#email-Notifi{
+    display: inline;
+    border: 2rem #ffffff;
+    border-radius: 5px;
+    width: 300px;
+    background-color: #fff;
+    margin-top: -2em;
+    color: #000000;
+    padding-left:10px;
+}
+
+#submail-title{
+    display: inline;
+    align-items: starts;
+    color: #ffffff;
+    background-color: #000000;
+    font-weight: 100;
+    font-size: 13px;
+    margin-top: -3em;
+}
+#submit-mail{
+    display: inline;
+    background-color: #fff;
+    color: #000000;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 2px;
+    padding-bottom:2px ;
+    border-radius: 5px;
+    font-weight: 100;
+    font-size: 12px;
+    margin: 1em;
+}
+#reserved1{
+    display: flex;
+    color: #ffffff;
+    background-color: #000000;
+    font-weight: 100;
+    font-size: 10px;
+}
+
+#Partners{
+    width: 50px;
+    list-style-type: none;
+
+}
+ 
